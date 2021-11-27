@@ -9,7 +9,16 @@ const Login = (props) => {
 	const [emailIsValid, setEmailIsValid] = useState();
 	const [enteredPassword, setEnteredPassword] = useState('');
 	const [passwordIsValid, setPasswordIsValid] = useState();
-	const [formIsValid, setFormIsValid] = useState(false);
+  const [formIsValid, setFormIsValid] = useState(false);
+  
+  useEffect(() => {
+    console.log('EFFECT RUNNING')
+
+    return () => {
+      console.log('EFFECT CLEANUP')
+    }
+  }, []);
+
 
   useEffect(() => {
 		const identifier = setTimeout(() => {
