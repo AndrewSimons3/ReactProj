@@ -11,4 +11,4 @@ const Meals = () => {
   )
 };
 
-export default Map;
+export default Meals;

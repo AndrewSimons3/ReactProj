@@ -17,6 +17,3 @@ const MealsSummary = () => {
 };
 
 export default MealsSummary;
-© 2021 GitHub, Inc.
-Terms
-Privacy
